@@ -24,41 +24,63 @@
       <!-- Header content remains unchanged -->
     </header>
 
-    <main class="content">
-      <!-- Recipes Section -->
-      <section class="recipes" id="recipes">
-        <h2 class="recipes__title">Recipes</h2>
-        <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
-        <ul class="recipes__videos">
-          <li>
-            <iframe class="recipes__iframe" src="https://www.youtube.com/embed/j6VlT_jUVPc" allowfullscreen></iframe>
-            <p class="recipes__video-caption">
-              <span>Aeropress recipe</span>
-              <span>~5 min</span>
-            </p>
-          </li>
-          <li>
-            <iframe class="recipes__iframe" src="https://www.youtube.com/embed/st571DYYTR8" allowfullscreen></iframe>
-            <p class="recipes__video-caption">
-              <span>French press recipe</span>
-              <span>~15 min</span>
-            </p>
-          </li>
-        </ul>
-      </section>
-
-      <!-- Animation Section -->
-      <section class="animations" id="animations">
-        <h2 class="animations__title">Coffee Animations</h2>
-        <p class="animations__description">
-          Enjoy these delightful coffee animations for inspiration and relaxation.
+  <main class="content">
+  <!-- Recipes Section -->
+  <section class="recipes" id="recipes">
+    <h2 class="recipes__title">Recipes</h2>
+    <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
+    <ul class="recipes__videos">
+      <li>
+        <iframe class="recipes__iframe" src="https://www.youtube.com/embed/j6VlT_jUVPc" allowfullscreen></iframe>
+        <p class="recipes__video-caption">
+          <span>Aeropress recipe</span>
+          <span>~5 min</span>
         </p>
-        <div class="animations__content">
-          <img src="images/coffee_animation1.gif" alt="Coffee Brewing Animation" class="animations__gif">
-          <img src="images/coffee_animation2.gif" alt="Latte Art Animation" class="animations__gif">
-        </div>
-      </section>
-    </main>
+      </li>
+      <li>
+        <iframe class="recipes__iframe" src="https://www.youtube.com/embed/st571DYYTR8" allowfullscreen></iframe>
+        <p class="recipes__video-caption">
+          <span>French press recipe</span>
+          <span>~15 min</span>
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Reservation Section -->
+  <section class="reservation" id="reservation">
+    <h2 class="reservation__title">Make a Reservation</h2>
+    <p class="reservation__description">Book a table in advance to ensure your spot in our cozy library coffee shop.</p>
+    <form class="reservation__form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required>
+      <button type="submit">Reserve Now</button>
+    </form>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu" id="menu">
+    <h2 class="menu__title">Our Menu</h2>
+    <ul class="menu__items">
+      <li><span>Espresso</span> - $3.00</li>
+      <li><span>Cappuccino</span> - $4.50</li>
+      <li><span>Latte</span> - $5.00</li>
+      <li><span>Mocha</span> - $5.50</li>
+    </ul>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2 class="about__title">About Us</h2>
+    <p class="about__description">Triple Peaks Coffee Shop is a specialty coffee hub located in the heart of the Triple Peaks Library. Our mission is to provide the perfect balance of energy and relaxation for students, professionals, and coffee enthusiasts alike.</p>
+    <img src="images/about_image.jpg" alt="Triple Peaks Coffee Shop Interior" class="about__image">
+  </section>
+</main>
+
 
     <footer class="footer">
       <!-- Footer content goes here -->
